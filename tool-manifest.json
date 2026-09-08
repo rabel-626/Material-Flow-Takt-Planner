@@ -1,0 +1,80 @@
+{
+  "schema": "AbelEngineering.ToolManifest",
+  "schemaVersion": "1.0",
+  "tool": {
+    "id": "material-flow-takt-planner",
+    "name": "Material Flow & Takt Planner",
+    "shortName": "MFTP",
+    "category": "Production Planning",
+    "status": "Active",
+    "version": "Current testbench build",
+    "description": "Import a Cycle Time & Labor report, compare process capacity to takt, estimate material consumption and supply-skid demand, and calculate finished-pallet throughput and staging space.",
+    "tags": [
+      "Planning & Layout",
+      "Takt",
+      "Material Flow"
+    ],
+    "features": [
+      "Cycle Time report import",
+      "Required takt and process capacity comparison",
+      "Material consumption calculation",
+      "Supply-skid frequency and line-side positions",
+      "Finished pallet throughput and buffer positions",
+      "Planning JSON / CSV / PDF-oriented exports"
+    ]
+  },
+  "links": {
+    "application": "https://rabel-626.github.io/Material-Flow-Takt-Planner/",
+    "repository": "https://github.com/rabel-626/Material-Flow-Takt-Planner"
+  },
+  "documents": [
+    {
+      "id": "quick-start",
+      "type": "quick-start",
+      "title": "Quick Start",
+      "file": "docs/quick-start/QS-AE-MFTP-001_Quick-Start.md",
+      "description": "Import a source report, set the planning basis, and review takt and material-flow outputs.",
+      "order": 10
+    },
+    {
+      "id": "work-instructions",
+      "type": "work-instruction",
+      "title": "Work Instructions",
+      "file": "docs/work-instructions/WI-AE-MFTP-001_Planning-Procedure.md",
+      "description": "Detailed procedure for building a material-flow and takt plan.",
+      "order": 20
+    },
+    {
+      "id": "takt-reference",
+      "type": "reference",
+      "title": "Takt & Capacity Calculations",
+      "file": "docs/reference/REF-AE-MFTP-001_Takt-Calculations.md",
+      "description": "Reference for takt, effective process time, load, and capacity.",
+      "order": 30
+    },
+    {
+      "id": "material-reference",
+      "type": "reference",
+      "title": "Material Staging Calculations",
+      "file": "docs/reference/REF-AE-MFTP-002_Material-Staging-Calculations.md",
+      "description": "Reference for pieces, skids, pallet frequency, and staging positions.",
+      "order": 40
+    },
+    {
+      "id": "limitations",
+      "type": "limitations",
+      "title": "Limitations",
+      "file": "docs/limitations/LIM-AE-MFTP-001_Limitations.md",
+      "description": "Known assumptions and boundaries of the planning model.",
+      "order": 50
+    },
+    {
+      "id": "data",
+      "type": "data",
+      "title": "Data & Privacy",
+      "file": "docs/data/DATA-AE-MFTP-001_Data-Handling.md",
+      "description": "Source-report handling and planner export behavior.",
+      "order": 60
+    }
+  ]
+}
